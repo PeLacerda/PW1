@@ -1,0 +1,42 @@
+
+html, body {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+thead {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+.bingo {
+  border: 10px solid black;
+}
+
+td {
+  padding: 10px 17px;
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+}
