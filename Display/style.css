@@ -1,0 +1,30 @@
+#primeira {
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    height: 150px;
+    font-size: 20pt;
+}
+
+#segunda {
+    display: flex;
+}
+
+#terceira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    border: 10px double blue;
+    height: 250px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.subdiv {
+    background-color: purple;
+    border: 10px solid orange;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 75px;
+}
