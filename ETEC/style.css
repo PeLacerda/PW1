@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.publisher {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 25%;
+}
+
+.navbar {
+    background-color: #941611;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+}
+
+span {
+    margin: 20px;
+}
