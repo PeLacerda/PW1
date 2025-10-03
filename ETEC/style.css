@@ -17,6 +17,12 @@ html, body {
     font-size: 10pt;
 }
 
-span {
+a {
     margin: 20px;
+    text-decoration: none;
+    color: white;   
+}
+
+a:hover {
+    color: #ccc;
 }
