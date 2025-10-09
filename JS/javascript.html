@@ -1,5 +1,5 @@
 <script>
-
+/*
   var nome = "Lacerda"
   var idade = "17"
   var idade_passada = 16
@@ -10,20 +10,80 @@
   var luzNaoApagada = false
   var semNamorada = true
 
-  /*
+
   var solicitar_nome = prompt("Digite seu nome")
   alert ("Olá "+solicitar_nome)
-*/
 
 
-//  Crie 3 variaveis, peça para o usuario digitar 3 numeros em um alerta a coma deles
 
-  var nm1 = prompt("Digite um número: ")
-  var nm2 = prompt("Digite um número: ")
-  var nm3 = prompt("Digite um número: ")
+    Crie 3 variaveis, peça para o usuario digitar 3 numeros em um alerta a com a deles
+
+
+  var nm1 = Number(prompt("Digite um número: "))
+  var nm2 = Number(prompt("Digite um número: "))
+  var nm3 = Number(prompt("Digite um número: "))
 
   var soma = (nm1 + nm2 + nm3)
 
-  alert (soma)
+  alert("A soma dos números é: " + soma)
+
+
+    Descobrindo se o número é par ou impar
+
+
+
+  var num = Number(prompt("Digite um número: "))
+
+  if (num%2 == 0){
+    alert("O número "+num+" é par")
+  } else {
+    alert("O número "+num+" é impar")
+  }
+
+
+  Peça para o usuario digitar uma idade e verificar se ele pode beber e dirigir, se pode beber exiba um alerta autorizando comprar metanol
+
+
+var idade = Number(prompt("Digite a sua idade: "))
+
+if (idade >= 18) {
+  alert("Você pode beber, dirigir e comprar metanol")
+} else
+  alert("Vai comprar toddynho criança")
+
+
+var tempo = false
+var dinheiro = false
+
+if (tempo == true && dinheiro == true) {
+  alert ("viajo")
+}
+
+
+var namorada = false
+
+if (namorada == true || dinheiro == true) {
+  alert("Sou  Feliz")
+}
+
+if (! namorada == true) {
+
+}else
+  alert(" O NOT inverteu o resultado da expressão ")
+
+*/
+
+var dinheiro = Number(prompt("Digite o seu saldo: R$"))
+
+if (dinheiro < 500) {
+  alert ("Fica em casa")
+} else if (dinheiro == 500) {
+  alert ("Vá para SP")
+} else if (dinheiro >= 501 && dinheiro <= 700) {
+  alert ("Vá para RJ")
+} else if (dinheiro >=701 && dinheiro <= 1000) {
+  alert ("Vá para MG")
+} else
+  alert("Vá para o Nordeste")
 
 </script>
