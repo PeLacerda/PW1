@@ -91,10 +91,17 @@ if (dinheiro < 500) {
 
 //  Laço de repetição
 
-for (var i = 1; i < 10; i++) {
-  var num = i * 9
-  document.write (" 9 * " + i + " = " + num + "<br>")
-}
+
+var num = Number(prompt("Digite o número para colocar na tabuada: "))
+// var limit = Number(prompt("Até qual número você quer essa tabuada: "))
+
+  for (var i = 0; i <= 10; i++) {
+    var cont = i * num
+    if (cont % 2 == 0) {
+      document.write (num +" * " + i + " = " + cont + "<br>")
+    }
+  }
+
 
 
 </script>
